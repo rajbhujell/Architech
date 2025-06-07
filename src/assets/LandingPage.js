@@ -18,7 +18,7 @@ import contactImage from "./images/Contact.png";
 const LandingPage = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1200,
+      duration: 1000,
       easing: "ease-in-out",
     });
   }, []);
